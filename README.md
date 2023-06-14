@@ -64,7 +64,7 @@ The component is configurable with an object passed as an argument, which may co
 
     A ReactiveVar.
 
-    If provided, then the button will be enabled (resp. disabled) depending of the ReactiveVar evaluates as truthy (resp. falsy).
+    If provided, then the button will be enabled (resp. disabled) if the ReactiveVar evaluates as truthy (resp. falsy).
 
     When not provided, the button is enabled.
 
