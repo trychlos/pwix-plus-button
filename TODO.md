@@ -1,4 +1,4 @@
-# pwix:toggle-switch - TODO
+# pwix:plus-button - TODO
 
 ## Summary
 
@@ -10,10 +10,7 @@
 
 |   Id | Date       | Description and comment(s) |
 | ---: | :---       | :---                       |
-|    1 | 2023- 4-30 | Configure the transition delay |
-|    2 | 2023- 4-30 | Configure the 'on' color |
-|    3 | 2023- 4-30 | Configure button height |
-|    4 |  |  |
+|    1 |  |  |
 
 ---
 ## Done
@@ -23,4 +20,4 @@
 
 ---
 P. Wieser
-- Last updated on 2023, Apr. 30th
+- Last updated on 2023, June 14th

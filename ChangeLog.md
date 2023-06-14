@@ -1,11 +1,13 @@
-# pwix:toggle-switch - ChangeLog
+# pwix:plus-button
 
-| Version | Release    | Content |
-| ---:    | :---       | :---    |
-| 0.3.1   | 2023- 4-30 | add toggleSwitch images to README |
-| 0.3.0   | 2023- 4-28 | Add 'name' argument, 'ts-state', 'ts-request' and 'ts-answer' events |
-| 0.2.0   | 2023- 4-28 | Initial release |
+## ChangeLog
+
+### 0.10.0
+
+    Release date: 
+
+    - Initial release
 
 ---
 P. Wieser
-- Last updated on 2023, Apr. 30th
+- Last updated on 2023, June 14th

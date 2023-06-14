@@ -1,3 +1,3 @@
 /*
- * pwix:toggle-switch/src/client/js/index.js
+ * pwix:plus-button/src/client/js/index.js
  */

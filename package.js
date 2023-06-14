@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'pwix:toggle-switch',
-    version: '0.3.2-rc',
-    summary: 'A toggle switch Blaze component',
-    git: 'https://github.com/trychlos/pwix-toggle-switch',
+    name: 'pwix:plus-button',
+    version: '0.10.0',
+    summary: 'A Blaze component which provides a circled-(+) button',
+    git: 'https://github.com/trychlos/pwix-plus-button',
     documentation: 'README.md'
 });
 
@@ -14,16 +14,16 @@ Package.onUse( function( api ){
 Package.onTest( function( api ){
     configure( api );
     api.use( 'tinytest' );
-    api.use( 'pwix:toggle-switch' );
+    api.use( 'pwix:plus-button' );
     api.mainModule( 'test/js/index.js' );
 });
 
 function configure( api ){
     api.versionsFrom( '2.9.0' );
     api.use( 'blaze-html-templates@2.0.0', 'client' );
-    api.use( 'ecmascript' );
+    api.use( 'ecmascript', 'client' );
     api.use( 'less@4.0.0', 'client' );
-    api.addFiles( 'src/client/components/toggleSwitch/toggleSwitch.js', 'client' );
+    api.addFiles( 'src/client/components/plusButton/plusButton.js', 'client' );
 }
 
 // NPM dependencies are checked in /src/server/js/check_npms.js

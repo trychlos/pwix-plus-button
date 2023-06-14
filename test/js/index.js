@@ -1,15 +1,15 @@
 /*
- * pwix:toggle-switch/test/js/index.js
+ * pwix:plus-button/test/js/index.js
  */
 
 // Import Tinytest from the tinytest Meteor package.
 import { Tinytest } from "meteor/tinytest";
 
 // Import and rename a variable exported by the package.
-import { name as packageName } from "meteor/pwix:toggle-switch";
+import { name as packageName } from "meteor/pwix:plus-button";
 
 // Write your tests here!
 // Here is an example.
-Tinytest.add('toggleSwitch - example', function( test ){
-  test.equal( packageName, "toggle-switch" );
+Tinytest.add('plusButton - example', function( test ){
+  test.equal( packageName, "plus-button" );
 });
