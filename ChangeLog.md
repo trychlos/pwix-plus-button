@@ -2,9 +2,9 @@
 
 ## ChangeLog
 
-### 0.10.0
+### 0.10.1
 
-    Release date: 
+    Release date: 2023- 6-14
 
     - Initial release
 
