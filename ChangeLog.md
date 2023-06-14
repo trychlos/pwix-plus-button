@@ -2,11 +2,11 @@
 
 ## ChangeLog
 
-### 0.10.2-rc
+### 0.11.0
 
     Release date: 
 
-    - 
+    - Change default positioning from 'relative' to 'absolute'
 
 ### 0.10.1
 
