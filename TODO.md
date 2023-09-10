@@ -10,13 +10,19 @@
 
 |   Id | Date       | Description and comment(s) |
 | ---: | :---       | :---                       |
-|    1 |  |  |
+|    3 | 2023- 9- 9 | Have configuration argument to change layout (say rectangular instead of circled) |
+|    4 | 2023- 9- 9 | Have configuration argument to set a title |
+|    5 |  |  |
 
 ---
 ## Done
 
 |   Id | Date       | Description and comment(s) |
 | ---: | :---       | :---                       |
+|    1 | 2023- 6-14 | Have an argument to change the button color |
+|      | 2023- 9-10 | done |
+|    2 | 2023- 9- 9 | Have configuration argument to change display class |
+|      | 2023- 9-10 | done |
 
 ---
 P. Wieser

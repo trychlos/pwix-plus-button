@@ -60,6 +60,12 @@ A simple circled-'plus' button.
 
 The component is configurable with an object passed as an argument, which may contain:
 
+- `classes`:
+
+    The classes to set on the `button` element.
+
+    Defaults to `btn btn-primary`.
+
 - `enabled`:
 
     A ReactiveVar.
