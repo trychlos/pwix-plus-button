@@ -4,7 +4,7 @@
 
 ### 0.11.0
 
-    Release date: 
+    Release date: 2023- 9-10
 
     - Change default positioning from 'relative' to 'absolute'
     - Let the application configure the button classes (todo #1, todo #2)
@@ -20,4 +20,4 @@
 
 ---
 P. Wieser
-- Last updated on 2023, June 14th
+- Last updated on 2023, Sept. 10th
