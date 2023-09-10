@@ -60,5 +60,14 @@ Template.plusButton.helpers({
             }
         }
         return shape;
+    },
+
+    // button title
+    title(){
+        let title = '';
+        if( Object.keys( Template.currentData()).includes( 'title' )){
+            title = Template.currentData().title;
+        }
+        return title;
     }
 });

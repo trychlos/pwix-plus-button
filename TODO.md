@@ -10,7 +10,6 @@
 
 |   Id | Date       | Description and comment(s) |
 | ---: | :---       | :---                       |
-|    4 | 2023- 9- 9 | Have configuration argument to set a title |
 |    5 |  |  |
 
 ---
@@ -23,6 +22,8 @@
 |    2 | 2023- 9- 9 | Have configuration argument to change display class |
 |      | 2023- 9-10 | done |
 |    3 | 2023- 9- 9 | Have configuration argument to change layout (say rectangular instead of circled) |
+|      | 2023- 9-10 | done |
+|    4 | 2023- 9- 9 | Have configuration argument to set a title |
 |      | 2023- 9-10 | done |
 
 ---

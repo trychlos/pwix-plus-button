@@ -87,6 +87,12 @@ The component is configurable with an object passed as an argument, which may co
 
     Defaults to `PlusButton.C.Shape.CIRCLE`.
 
+- `title`:
+
+    The title of the displayed button as a string.
+
+    No default.
+
 ## NPM peer dependencies
 
 This package has no NPM dependencies.
