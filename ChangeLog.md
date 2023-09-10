@@ -7,7 +7,8 @@
     Release date: 
 
     - Change default positioning from 'relative' to 'absolute'
-    - Let the application configure the button classes (todo #¹, todo #2)
+    - Let the application configure the button classes (todo #1, todo #2)
+    - Let the application configure the button shape (todo #3)
 
 ### 0.10.1
 

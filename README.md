@@ -52,6 +52,8 @@ None at the moment.
 
 ## Provides
 
+The package exports the `PlusButton` global object.
+
 ### Blaze components
 
 #### `plusButton`
@@ -73,6 +75,17 @@ The component is configurable with an object passed as an argument, which may co
     If provided, then the button will be enabled (resp. disabled) if the ReactiveVar evaluates as truthy (resp. falsy).
 
     When not provided, the button is enabled.
+
+- `shape`:
+
+    The shape of the displayed button.
+
+    Allowed values are:
+
+        - `PlusButton.C.Shape.CIRCLE`
+        - `PlusButton.C.Shape.RECTANGLE`
+
+    Defaults to `PlusButton.C.Shape.CIRCLE`.
 
 ## NPM peer dependencies
 
