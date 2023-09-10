@@ -10,6 +10,7 @@
     - Let the application configure the button classes (todo #1, todo #2)
     - Let the application configure the button shape (todo #3)
     - Let the application configure the button title (todo #4)
+    - Let the application configure the button label (todo #4)
 
 ### 0.10.1
 

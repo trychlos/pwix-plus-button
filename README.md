@@ -76,6 +76,12 @@ The component is configurable with an object passed as an argument, which may co
 
     When not provided, the button is enabled.
 
+- `label`:
+
+    The label of the displayed button as a HTML string.
+
+    Defaulting to a big plus '+'.
+
 - `shape`:
 
     The shape of the displayed button.

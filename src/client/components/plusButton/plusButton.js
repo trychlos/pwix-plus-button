@@ -14,6 +14,7 @@ Template.plusButton.onCreated( function(){
     self.PCK = {
         defaults: {
             classes: 'btn btn-primary',
+            label: '<span class="fa-solid fa-xl fa-plus"></span>',
             shape: PlusButton.C.Shape.CIRCLE
         }
     };
@@ -26,7 +27,7 @@ Template.plusButton.helpers({
         if( Object.keys( Template.currentData()).includes( 'classes' )){
             classes = Template.currentData().classes;
         }
-        console.debug( 'returning', classes );
+        //console.debug( 'returning', classes );
         return classes;
     },
 
@@ -38,6 +39,16 @@ Template.plusButton.helpers({
             disabled = 'disabled';
         }
         return disabled;
+    },
+
+    // button label
+    label(){
+        let label = Template.instance().PCK.defaults.label;
+        if( Object.keys( Template.currentData()).includes( 'label' )){
+            label = Template.currentData().label;
+        }
+        //console.debug( 'returning', label );
+        return label;
     },
 
     // choose the shape of the button, providing an ad-hoc class
