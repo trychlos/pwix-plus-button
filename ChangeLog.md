@@ -2,6 +2,12 @@
 
 ## ChangeLog
 
+### 0.11.1-rc
+
+    Release date: 
+
+    - 
+
 ### 0.11.0
 
     Release date: 2023- 9-10
@@ -11,6 +17,7 @@
     - Let the application configure the button shape (todo #3)
     - Let the application configure the button title (todo #4)
     - Let the application configure the button label (todo #4)
+    - Bump Meteor requirement to 2.13.2
 
 ### 0.10.1
 
