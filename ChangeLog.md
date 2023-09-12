@@ -2,9 +2,9 @@
 
 ## ChangeLog
 
-### 0.11.1-rc
+### 0.11.1
 
-    Release date: 
+    Release date: 2023- 9-12
 
     - Back to Meteor 2.9.0
 
@@ -27,4 +27,4 @@
 
 ---
 P. Wieser
-- Last updated on 2023, Sept. 10th
+- Last updated on 2023, Sept. 12th
