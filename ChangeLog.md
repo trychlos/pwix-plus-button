@@ -2,9 +2,9 @@
 
 ## ChangeLog
 
-### 0.11.2-rc
+### 0.11.2
 
-    Release date: 
+    Release date: 2024- 5-24
 
     - Meteor 3.0 ready
 
@@ -33,4 +33,4 @@
 
 ---
 P. Wieser
-- Last updated on 2023, Sept. 12th
+- Last updated on 2024, May. 24th
