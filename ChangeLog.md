@@ -2,11 +2,11 @@
 
 ## ChangeLog
 
-### 0.11.3-rc
+### 1.0.0-rc
 
     Release date: 
 
-    - 
+    - Add (missing) pwix:ui-bootstrap5 dependency, bumping major candidate version number
 
 ### 0.11.2
 
