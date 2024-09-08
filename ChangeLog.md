@@ -6,7 +6,7 @@
 
     Release date: 
 
-    - 
+    - Make sure the button label doesn't wrap
 
 ### 1.0.0
 
