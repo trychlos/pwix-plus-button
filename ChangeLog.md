@@ -2,9 +2,9 @@
 
 ## ChangeLog
 
-### 1.0.1-rc
+### 1.0.1
 
-    Release date: 
+    Release date: 2024- 9-13
 
     - Make sure the button label doesn't wrap
 
@@ -45,4 +45,4 @@
 
 ---
 P. Wieser
-- Last updated on 2024, Jun. 9th
+- Last updated on 2024, Sep. 13th
