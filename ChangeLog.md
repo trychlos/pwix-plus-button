@@ -2,11 +2,11 @@
 
 ## ChangeLog
 
-### 1.0.2-rc
+### 1.1.0-rc
 
     Release date: 
 
-    - 
+    - No more force the button to an absolute position, but let the caller position it, thus bumping minor candidate version number
 
 ### 1.0.1
 

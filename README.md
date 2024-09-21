@@ -30,22 +30,6 @@ Very simple:
     }
 ```
 
-### Positionning
-
-The `pwix:plus-button` package comes with a default `absolute` positioning:
-
-```
-    .plusButton {
-        position: absolute;
-        top: 1em;
-        right: 1em;
-    }
-```
-
-This configuration expects the parent container have a `relative` position itself.
-
-See that as an example. You will most probably override this positioning in your own stylesheet.
-
 ## Configuration
 
 None at the moment.
