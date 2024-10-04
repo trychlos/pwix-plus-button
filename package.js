@@ -1,6 +1,6 @@
 Package.describe({
     name: 'pwix:plus-button',
-    version: '1.1.0-rc',
+    version: '1.1.0',
     summary: 'A Blaze component which provides a circled-(+) button',
     git: 'https://github.com/trychlos/pwix-plus-button',
     documentation: 'README.md'

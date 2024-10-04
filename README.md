@@ -89,4 +89,4 @@ This package has no NPM dependencies.
 
 ---
 P. Wieser
-- Last updated on 2024, Sep. 13th
+- Last updated on 2024, Oct. 4th
