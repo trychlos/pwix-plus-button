@@ -2,6 +2,12 @@
 
 ## ChangeLog
 
+### 1.1.0
+
+    Release date: 2024-10- 4
+
+    - No more force the button to an absolute position, but let the caller position it, thus bumping minor candidate version number
+
 ### 1.0.1
 
     Release date: 2024- 9-13
@@ -45,4 +51,4 @@
 
 ---
 P. Wieser
-- Last updated on 2024, Sep. 13th
+- Last updated on 2024, Oct. 4th
