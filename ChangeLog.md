@@ -6,7 +6,8 @@
 
     Release date: 
 
-    - 
+    - Extend the disabled attribute to the parent div, so that all the component is disabled
+    - Prevent click event to propagate when the component is disabled
 
 ### 1.1.0
 

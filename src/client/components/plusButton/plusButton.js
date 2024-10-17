@@ -16,6 +16,16 @@ Template.plusButton.onCreated( function(){
             classes: 'btn btn-primary',
             label: '<span class="fa-solid fa-xl fa-plus"></span>',
             shape: PlusButton.C.Shape.CIRCLE
+        },
+
+        // whether this component is enabled ?
+        enabled( dc ){
+            let enabled = true;
+            const rv = dc.enabled;
+            if( rv && rv instanceof ReactiveVar && !rv.get()){
+                enabled = false;
+            }
+            return enabled;
         }
     };
 });
@@ -33,12 +43,8 @@ Template.plusButton.helpers({
 
     // enable/disable the button
     disabled(){
-        const rv = Template.currentData().enabled;
-        let disabled = '';
-        if( rv && rv instanceof ReactiveVar && !rv.get()){
-            disabled = 'disabled';
-        }
-        return disabled;
+        const enabled = Template.instance().PCK.enabled( this );
+        return enabled ? '' : 'disabled';
     },
 
     // button label
@@ -80,5 +86,13 @@ Template.plusButton.helpers({
             title = Template.currentData().title;
         }
         return title;
+    }
+});
+
+Template.plusButton.events({
+    // do not propagate the event if the component is disabled
+    'click .plusButton'( event, instance ){
+        const enabled = instance.PCK.enabled( this );
+        return enabled;
     }
 });
