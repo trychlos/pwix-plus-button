@@ -2,9 +2,9 @@
 
 ## ChangeLog
 
-### 1.1.1-rc
+### 1.1.1
 
-    Release date: 
+    Release date: 2024-11-19
 
     - Extend the disabled attribute to the parent div, so that all the component is disabled
     - Prevent click event to propagate when the component is disabled
@@ -58,4 +58,4 @@
 
 ---
 P. Wieser
-- Last updated on 2024, Oct. 4th
+- Last updated on 2024, Nov. 19th
