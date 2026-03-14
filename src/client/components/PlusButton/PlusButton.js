@@ -1,15 +1,15 @@
 /*
- * pwix:plus-button/src/client/components/plusButton/plusButton.js
+ * pwix:plus-button/src/client/components/PlusButton/PlusButton.js
  *
  * Usage: see README
  */
 
 import { ReactiveVar } from 'meteor/reactive-var';
 
-import './plusButton.html';
-import './plusButton.less';
+import './PlusButton.html';
+import './PlusButton.less';
 
-Template.plusButton.onCreated( function(){
+Template.PlusButton.onCreated( function(){
     const self = this;
     self.PCK = {
         defaults: {
@@ -30,7 +30,7 @@ Template.plusButton.onCreated( function(){
     };
 });
 
-Template.plusButton.helpers({
+Template.PlusButton.helpers({
     // set button classes
     classes(){
         let classes = Template.instance().PCK.defaults.classes;
@@ -89,9 +89,9 @@ Template.plusButton.helpers({
     }
 });
 
-Template.plusButton.events({
+Template.PlusButton.events({
     // do not propagate the event if the component is disabled
-    'click .plusButton'( event, instance ){
+    'click .PlusButton'( event, instance ){
         const enabled = instance.PCK.enabled( this );
         return enabled;
     }

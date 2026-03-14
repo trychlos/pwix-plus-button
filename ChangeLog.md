@@ -2,11 +2,11 @@
 
 ## ChangeLog
 
-### 1.1.2-rc
+### 1.2.0-rc
 
     Release date: 
 
-    - 
+    - Rename 'plusButton' component to 'PlusButton' for consistency reason, thus bumping minor candidate version number
 
 ### 1.1.1
 

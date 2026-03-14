@@ -10,6 +10,6 @@ import { name as packageName } from "meteor/pwix:plus-button";
 
 // Write your tests here!
 // Here is an example.
-Tinytest.add('plusButton - example', function( test ){
+Tinytest.add('PlusButton - example', function( test ){
   test.equal( packageName, "plus-button" );
 });

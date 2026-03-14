@@ -19,13 +19,13 @@ Very simple:
 ### Include in your HTML template
 
 ```
-    {{> plusButton }}
+    {{> PlusButton }}
 ```
 
 ### Handle the event in your JS code
 
 ```
-    'click .plusButton'( event, instance ){
+    'click .PlusButton'( event, instance ){
 
     }
 ```
@@ -40,7 +40,7 @@ The package exports the `PlusButton` global object.
 
 ### Blaze components
 
-#### `plusButton`
+#### `PlusButton`
 
 A simple circled-'plus' button.
 
