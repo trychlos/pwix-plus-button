@@ -2,9 +2,9 @@
 
 ## ChangeLog
 
-### 1.2.0-rc
+### 1.2.0
 
-    Release date: 
+    Release date: 2026- 4- 2
 
     - Rename 'plusButton' component to 'PlusButton' for consistency reason, thus bumping minor candidate version number
 
@@ -64,4 +64,4 @@
 
 ---
 P. Wieser
-- Last updated on 2024, Nov. 19th
+- Last updated on 2026, Apr. 2nd
